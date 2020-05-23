@@ -32,7 +32,7 @@
     }
 
     create() {
-      const name = window.prompt('请输入你的标签名');
+      const name = window.prompt('请输入您的标签名');
       if (name === '') {
         window.alert('标签不能为空，请重新添加！');
       } else if (this.dataSource) {
