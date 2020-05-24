@@ -47,13 +47,14 @@
 
     remove() {
       if (this.tag) {
-        if (tagListModel.remove(this.tag.id)){
-          this.$router.back()
+        if (tagListModel.remove(this.tag.id)) {
+          this.$router.back();
         }
       }
     }
+
     goBack() {
-      this.$router.back()
+      this.$router.back();
     }
   }
 </script>
