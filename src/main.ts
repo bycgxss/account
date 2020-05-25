@@ -18,3 +18,7 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app');
+
+if(document.documentElement.clientWidth){
+  window.alert('请在手机端打开此页面，以保证页面效果')
+}

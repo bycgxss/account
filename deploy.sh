@@ -21,5 +21,6 @@ git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
  git push -f git@github.com:bycgxss/account.git master:gh-pages
+# git oush -f git@gitee.com:bycgxss/account.git master:gh-pages
 
 cd -
