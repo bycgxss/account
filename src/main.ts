@@ -19,6 +19,6 @@ new Vue({
   render: h => h(App)
 }).$mount('#app');
 
-if(document.documentElement.clientWidth){
-  window.alert('请在手机端打开此页面，以保证页面效果')
+if (document.documentElement.clientWidth > 500) {
+  window.alert('请在手机端打开此页面，以保证页面效果');
 }
