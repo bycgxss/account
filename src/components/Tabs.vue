@@ -22,7 +22,7 @@
       return {
         selected: item.value === this.value,
         [this.classPrefix + '-tabs-item']: this.classPrefix
-      }
+      };
     }
 
     select(item: DataSourceItem) {
